@@ -1,0 +1,7 @@
+This project is intended to document my efforts to learn Node.js, and to maintain my numerical math skills.
+
+Problem 1: 
+- Tempted to brute force it (either look at each number less that 1000 and check whether it was divisible), but decided to get a bit fancier.
+- Essentially this problem is looking for the sum of all numbers less than 1000 divisible by 3 plus the sum of all numbers less than 1000 divisible by 5 minus the sum of all numbers less than 1000 divisible by 15.
+- OR ... 3*SUM(1..FLOOR(1000/3)) + 5*SUM(1..FLOOR(1000/5)) - 15*SUM(1..FLOOR(1000/15))
+- SUM(1..N) inclusive = N * ( N + 1 ) / 2... and we're done.
