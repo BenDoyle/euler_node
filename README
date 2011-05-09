@@ -7,6 +7,9 @@ Problem 1:
 - SUM(1..N) inclusive = N * ( N + 1 ) / 2... and we're done.
 
 Problem 2: 
-- A quick browse of wikipedia gives the cosed form solution for the sequence: F(n) = ( phi ^ n - (-phi) ^ (-n) ) / sqrt(5)... phi = 1/2 + SQRT(5)/2
-- it turns out ever third element is even, so I only need to sum every third element
-- cant see a clever way to solve this, so I'll just run a loop... feels like there should be a better way
+- A quick browse of wikipedia gives the closed form solution for the sequence: F(n) = ( phi ^ n - (-phi) ^ (-n) ) / sqrt(5)... phi = 1/2 + SQRT(5)/2
+- It turns out ever third element is even, so I only need to sum every third element
+- Can't see a clever way to solve this, so I'll just run a loop... feels like there should be a better way though
+
+Problem 3: 
+- Can't think of anything fancy here... I'll hack something together
