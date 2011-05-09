@@ -16,3 +16,13 @@ Problem 3:
 
 Problem 4: 
 - Once again, can't think of anything fancy... I'll at least pass around a function...
+
+Problem 5:
+- This one seems easier to solve by hand than with a computer... 
+- I'll solve for 1..n where n is arbitrary
+- Start with the largest number, work downwards. 
+- Factorize each, and remove the factors from the list, until you get to the smallest element in the list.
+- Multiply remaining numbers together, and you're done
+- Ouch! This approach is wrong... lets think some more.
+- Need to take the prime factors of each number. For each prime factor, need as many of them as the largest requirement
+- Multiply them all together (some prime factors more than once)
