@@ -27,4 +27,9 @@ function primeFactors(number) {
   return factor(number,2,[]);
 }
 
+function series(limit) {
+  return limit * ( limit + 1 ) / 2;
+}
+
 exports.primeFactors = primeFactors;
+exports.series = series;

@@ -10,12 +10,10 @@
 
 // 3 * SUM(1..FLOOR(1000/3)) + 5 * SUM(1..FLOOR(1000/5)) - 15 * SUM(1..FLOOR(1000/15))
 
-function series(limit) {
-  return limit * ( limit + 1 ) / 2;
-}
+var com = require("./common");
 
 function multipleSeries(multiplier,limit) {
-  return multiplier * series( Math.floor( ( limit - 1 ) / multiplier ) );
+  return multiplier * com.series( Math.floor( ( limit - 1 ) / multiplier ) );
 }
 
 test = multipleSeries(3,10)   + multipleSeries(5,10)   - multipleSeries(15,10);
