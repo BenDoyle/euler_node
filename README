@@ -26,3 +26,4 @@ Problem 5:
 - Ouch! This approach is wrong... lets think some more.
 - Need to take the prime factors of each number. For each prime factor, need as many of them as the largest requirement
 - Multiply them all together (some prime factors more than once)
+- After another incorrect submission (!), and a javascript bug is hunted down, this technique seems to work
