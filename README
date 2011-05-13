@@ -39,3 +39,9 @@ Problem 8:
 
 Problem 9:
 - this one looks like fun
+
+Problem 10:
+- need an efficient way to get a sequence of primes... 2000000 is largish
+- keep a list of all the primes i know of so far, test anything new against those
+- wrong answer !?! what have I done wrong?
+- whoops, index off by 1
