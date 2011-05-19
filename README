@@ -45,3 +45,12 @@ Problem 10:
 - keep a list of all the primes i know of so far, test anything new against those
 - wrong answer !?! what have I done wrong?
 - whoops, index off by 1
+
+Problem 11:
+- Brute force. Dull
+
+Problem 12:
+- I like this one. Brute force is NOT going to cut it.
+- I can't do a logarithmic search because numDivisors is NOT monotonic in the triangle numbers sequence
+- Means I need to do a linear search, which means I need to be VERY efficient (500 divisors will be a large number)
+- I already have a reasonably efficient prime factorization function, need to make a function that takes a list of prime factors gives number of divisors
