@@ -10,20 +10,6 @@ function arrayUpTo(n) {
   return arr;
 }
 
-function groupList(list) {
-  groups = {};
-  for(i=0;i<list.length;i+=1) {
-    if(groups[list[i]]) {
-      groups[list[i]] += 1;
-    }
-    else {
-      groups[list[i]] = 1;
-    }
-  }
-  return groups;
-}
-
-
 function maxGroups(listOfGroups) {
   maxGroups = {};
   for(i=0;i<listOfGroups.length;i+=1){
@@ -44,7 +30,7 @@ factorsList = []
 for(index=0;index<numberList.length;index+=1) {
   // console.log(20-i)
   factors = com.primeFactors(numberList[index])
-  hash    = groupList(factors)
+  hash    = com.groupList(factors)
   factorsList.push(hash)
 }
 mg = maxGroups(factorsList)
