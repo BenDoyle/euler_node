@@ -54,3 +54,6 @@ Problem 12:
 - I can't do a logarithmic search because numDivisors is NOT monotonic in the triangle numbers sequence
 - Means I need to do a linear search, which means I need to be VERY efficient (500 divisors will be a large number)
 - I already have a reasonably efficient prime factorization function, need to make a function that takes a list of prime factors gives number of divisors
+
+Problem 13:
+- Another brute force problem
